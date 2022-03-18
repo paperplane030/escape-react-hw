@@ -5,7 +5,7 @@ import {
 } from "react-router-dom";
 import './App.css';
 import Nav from './components/Nav';
-import Index from './pages/index';
+// import Index from './pages/index';
 import Products from './pages/Products';
 import ProductDetail from "./pages/ProductDetail";
 import Article from './pages/Article';
@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter>
       <Nav/>
       <Routes>
-        <Route path="paperplane030/escape-react-hw/" element={<Index />} />
+        {/* <Route path="paperplane030/escape-react-hw/" element={<Index />} /> */}
         <Route path="products" element={<Products />} />
         <Route path="products/:productId" element={<ProductDetail />} />
         <Route path="articles" element={<Article />} />
