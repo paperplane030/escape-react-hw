@@ -1,6 +1,7 @@
 import axios from 'axios';
 import React, { useState, useEffect } from 'react';
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function ProductDetail() {
   const [state, setState] = useState({});
@@ -74,6 +75,9 @@ function ProductDetail() {
             </div>
           </div>
         </div>
+        <div className="col-md-6 mt-2">
+            <Link to="../articles" className="btn btn-sm btn-neutral">回文章列表</Link>
+          </div>
       </div>
     </div>
   )
