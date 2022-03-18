@@ -55,7 +55,7 @@ function Product() {
           <span className="text-muted text-sm ">總共{products.length}筆資料</span>
         </div>
       </div>
-      <Link to="/" className="btn btn-sm btn-neutral mt-3">回首頁</Link>
+      <Link to="../escape-react-hw/" className="btn btn-sm btn-neutral mt-3">回首頁</Link>
     </div>
   )
 }
