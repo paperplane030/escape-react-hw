@@ -60,7 +60,7 @@ function Article() {
           <span className="text-muted text-sm ">總共{articles.length}筆資料</span>
         </div>
       </div>
-      <Link to="../paperplane030/escape-react-hw/" className="btn btn-sm btn-neutral mt-3">回首頁</Link>
+      <Link to="../escape-react-hw/" className="btn btn-sm btn-neutral mt-3">回首頁</Link>
     </div>
   )
 }
