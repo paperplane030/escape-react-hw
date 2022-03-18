@@ -17,7 +17,7 @@ function App() {
     <BrowserRouter>
       <Nav/>
       <Routes>
-        <Route path="escape-react-hw/" element={<Index />} />
+        <Route index element={<Index />} />
         <Route path="products" element={<Products />} />
         <Route path="products/:productId" element={<ProductDetail />} />
         <Route path="articles" element={<Article />} />
